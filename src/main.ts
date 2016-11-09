@@ -1,6 +1,8 @@
 import {Aurelia} from 'aurelia-framework'
 import environment from './environment';
 
+import 'bootstrap';
+
 //Configure Bluebird Promises.
 (<any>Promise).config({
   longStackTraces: environment.debug,
